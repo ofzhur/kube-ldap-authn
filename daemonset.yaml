@@ -17,7 +17,7 @@ spec:
         app: kube-ldap-authn
     spec:
       nodeSelector:
-        node-role.kubernetes.io/master: "true"
+        kubernetes.io/role: "master"
       tolerations:
       - effect: NoSchedule
         key: node-role.kubernetes.io/master
