@@ -31,7 +31,7 @@ spec:
 
       containers:
       - name: kube-ldap-authn
-        image: docker.io/torchbox/kube-ldap-authn:latest
+        image: 321621411763.dkr.ecr.eu-central-1.amazonaws.com/kube-ldap-authn:latest 
         imagePullPolicy: Always
 
         env:
